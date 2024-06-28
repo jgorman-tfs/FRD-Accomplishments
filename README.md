@@ -1,14 +1,17 @@
 # FRD-Accomplishments 
 This repository contains information related to creating the FRD Accomplishments Map and other needed information.<br>
 
-*Last updated 6-12-24*
+*Last updated 6-28-24*
 ## Purpose
 The FRD Accomplishment Map is included in the FRD Accomplishment Report that is written by Hughes and sent to Al every quarter of the fiscal year. The map serves as a visualization of all the quarterly accomplishments. Other ancillary information is also collected and reported to Hughes. 
 ## Key Components
 Primary data is collected from 2 sources: Brad and Mac in the form of excel reports. 
 Brad's report contains ELMR information that is gathered through SQL queries and is generally good to go. 
 Mac's report contains ELMR and SPAM (federal reporting) information that is only related to Urban and Community Forestry, and generally needs re-working.
-Seconday data includes County Boundaries, City Boundaries, and U.S. Census Bureau Places (Texas)
+Seconday data includes County Boundaries, City Boundaries, and U.S. Census Bureau Places (Texas) 
+
+Download Shapefiles from:
+https://texasforestservice.sharepoint.com/:f:/s/Share-ForestAnalytics/EhiEZHqHIFlMuBF89EYSjMYBi2phThOwS_X_64GVVGmDmA?e=0VKab2
 ## Structure
 Q1 - September, October, November (Map due in December) <br>
 Q2 - December, Janruary, February (Map due in March)<br>
