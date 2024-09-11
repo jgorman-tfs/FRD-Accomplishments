@@ -59,6 +59,7 @@ Symbology is **Dot Density**<br>
 Also needed is number of communities assisted (U&CF) and acres of those assisted
 
 ## Methodology for the UCF Community Stats
+
 **Clean the UCF Report for Getting the UCF Community Stats**
  1. Copy all CITIES and type of assistance from SPAM and SSPR into one sheet..
  2. Copy all OFFICE locations and types of assistance from ELMR into the same sheet, right below the others. (This is because ELMR shows assists by county, not city. So were substituting the office city as a "community").
@@ -69,8 +70,10 @@ Also needed is number of communities assisted (U&CF) and acres of those assisted
  7. Remove duplicates to you only have unique cities in your column. (I find it better to highlight and manually delete them. This lets me comb through and check for misspellings and get a better look at the cities.
  8. Use your own judgement when you delete cities and duplicates. For example, you may see Austin and Austin South. Just keep one Austin.
  9. You now have a PRELININARY list of all the unique cities for this Quarter that si ready to be put in the UCF Community Processor script. Take note of what you call your final sheet for all unique communities.
+
 **Run through the UCT_CommunityProcessor script**
 You MUST have a layer loaded in the map that has Texas Places with a field containing the county for each place. Change the first cell block to update the paths to your files. 
+
 **Keep track of the community stats**
 A new field is added to the Texas_Places_WithCounties Layer for the acres of each community. You can select the non-null communities and export to keep track of them. 
 
