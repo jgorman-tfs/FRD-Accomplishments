@@ -1,14 +1,13 @@
 # FRD-Accomplishments 
-This repository contains information related to creating the FRD Accomplishments Map and other needed information.<br>
+This repository contains information related to creating the FRD Accomplishments Map and calcuating the UCF community stats.<br>
 
 *Last updated 9-11-24*
 ## Purpose
-The FRD Accomplishment Map is included in the FRD Accomplishment Report that is written by Hughes and sent to Al every quarter of the fiscal year. The map serves as a visualization of all the quarterly accomplishments. Other ancillary information is also collected and reported to Hughes. 
+The FRD Accomplishment Map is included in the FRD Accomplishment Report that is written by Hughes and sent to Al every quarter of the fiscal year. The map serves as a visualization of all the quarterly accomplishments. Other ancillary information is also collected and reported to Hughes and Gretchen. 
 ## Key Components
-Primary data is collected from 2 sources: Brad and Mac in the form of excel reports. 
-Brad's report contains ELMR information that is gathered through SQL queries and is generally good to go. 
-Mac's report contains ELMR and SPAM (federal reporting) information that is only related to Urban and Community Forestry, and generally needs re-working.
+Primary data is collected from Mac, Chris, and ELMR. Brad Barber wrote the SQL in Microsoft Access to get the ELMR data. Mac send the Urban and Community Forestry report and Chris sends the FIA report. 
 Seconday data includes County Boundaries, City Boundaries, and U.S. Census Bureau Places (Texas) 
+Texas_PlacesWithCounties is an important feature because it contains a field for County each Place is in. 
 
 Download Shapefiles from:
 https://texasforestservice.sharepoint.com/:f:/s/Share-ForestAnalytics/EhiEZHqHIFlMuBF89EYSjMYBi2phThOwS_X_64GVVGmDmA?e=0VKab2
