@@ -1,7 +1,7 @@
 # FRD-Accomplishments 
 This repository contains information related to creating the FRD Accomplishments Map and other needed information.<br>
 
-*Last updated 6-28-24*
+*Last updated 9-11-24*
 ## Purpose
 The FRD Accomplishment Map is included in the FRD Accomplishment Report that is written by Hughes and sent to Al every quarter of the fiscal year. The map serves as a visualization of all the quarterly accomplishments. Other ancillary information is also collected and reported to Hughes. 
 ## Key Components
