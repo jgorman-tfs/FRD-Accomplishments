@@ -78,7 +78,9 @@ You MUST have a layer loaded in the map that has Texas Places with a field conta
 A new field is added to the Texas_Places_WithCounties Layer for the acres of each community. You can select the non-null communities and export to keep track of them. 
 
 ## Methodology for Accomplishments 
+
 **Getting the ELMR Data**
+
 1. Open the FIA Report From Chris.
 2. Change the COUNTY CODE column to SHORT TEXT and convert to 3 character length. In excel, its =A1(TEXT, "000")
 3. Open the FRD Quarterly Accomplishments Microsoft Access Database. If you do not have it, get with Brad Barber.
@@ -88,7 +90,9 @@ A new field is added to the Texas_Places_WithCounties Layer for the acres of eac
 7. Save the excel file as CSV
 
 **Clean the UCF Report for Accomplishments**
+
 These initial steps are similar to the first cleaning, but there are a couple key differences. You will not remove duplicate values and you will not copy the cities from ELMR. (This is because ELMR already records the county.)
+
 2. Copy the ELMR Counties and types of assistance into a new sheet and insert into a table.
 3. Filter the table, keeping only the NECCESSARY CATEGORIES. (See structure section above).
 6. Copy the Cities and Types of Assistance from SPAM and SSPR into a sepeate sheet and insert to table.
@@ -97,11 +101,12 @@ These initial steps are similar to the first cleaning, but there are a couple ke
 9. Add a Column called "category" and type in either Conservation Education or Technical assistance to the corresponding assistance type. See above for reference.
 
 **Run through the FRD Accomplishments Script**
+
 You MUST have a Texas County Layer loaded in the map. This is a template and will be copied to make the final layer for dot density. You should only need to alter the first cell to update the paths to your files. 
 
 **For making the map**
-Change symbology to Dot Density
 
+Change symbology to Dot Density
 
 Send Map, number of communities, and acres to Hughes, Gretchen, and Rebekah
 
