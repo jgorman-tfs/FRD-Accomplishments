@@ -72,9 +72,11 @@ Also needed is number of communities assisted (U&CF) and acres of those assisted
  9. You now have a PRELININARY list of all the unique cities for this Quarter that si ready to be put in the UCF Community Processor script. Take note of what you call your final sheet for all unique communities.
 
 **Run through the UCT_CommunityProcessor script**
+
 You MUST have a layer loaded in the map that has Texas Places with a field containing the county for each place. Change the first cell block to update the paths to your files. 
 
 **Keep track of the community stats**
+
 A new field is added to the Texas_Places_WithCounties Layer for the acres of each community. You can select the non-null communities and export to keep track of them. 
 
 ## Methodology for Accomplishments 
