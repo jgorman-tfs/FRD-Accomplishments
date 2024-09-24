@@ -77,7 +77,7 @@ You MUST have a layer loaded in the map that has Texas Places with a field conta
 
 **Keep track of the community stats**
 
-A new field is added to the Texas_Places_WithCounties Layer for the acres of each community. You can select the non-null communities and export to keep track of them. 
+A new field is added to the Texas_Places_WithCounties Layer for the acres of each community. You can select the non-null communities and export to keep track of them. Update the Urban Forestry Communities Assisted spreadsheet.
 
 ## Methodology for Accomplishments 
 
