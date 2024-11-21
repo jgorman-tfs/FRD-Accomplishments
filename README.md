@@ -112,9 +112,9 @@ You MUST have a Texas County Layer loaded in the map. This is a template and wil
 
 **For making the map**
 
-Change symbology to Dot Density
+Apply the properties from the lyrx to the final layer.
 
-Send Map, number of communities, and acres to Hughes, Gretchen, and Rebekah
+Send Map, number of communities, and acres to Gretchen and cc Rebekah. 
 
 
 
