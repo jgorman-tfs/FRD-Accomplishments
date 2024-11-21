@@ -3,14 +3,18 @@ This repository contains information related to creating the FRD Accomplishments
 
 *Last updated 9-11-24*
 ## Purpose
-The FRD Accomplishment Map is included in the FRD Accomplishment Report that is written by Hughes and sent to Al every quarter of the fiscal year. The map serves as a visualization of all the quarterly accomplishments. Other ancillary information is also collected and reported to Hughes and Gretchen. 
-## Key Components
-Primary data is collected from Mac, Chris, and ELMR. Brad Barber wrote the SQL in Microsoft Access to get the ELMR data. Mac send the Urban and Community Forestry report and Chris sends the FIA report. 
-Seconday data includes County Boundaries, City Boundaries, and U.S. Census Bureau Places (Texas) 
-Texas_PlacesWithCounties is an important feature because it contains a field for County each Place is in. 
+The FRD Accomplishment Map is included in the FRD Accomplishment Report that is written by Gretchen and sent to Al every quarter of the fiscal year. The map serves as a visualization of all the quarterly accomplishments. Other ancillary information is also collected and reported. 
+
+The data from ELMR and Chris is straightforward and easy to put into a map because it's a list of counties with the assist count for each county under each category. The data from UCF (Mac) is less straightforward because it is just a list of cities and counties 
+with the associated assist type. You will need to clean and format the UCF data into one sheet for UCF Stats and two sheets for accomplishments. 
+
+You will need to download the Texas_Places_WithCounties and Template layers along with the Q5_2024 lyrx for symbology.
+The Texas_Places_WithCounties layer has all Texas Places and the respective county they are in. This is important to match the UCF cities to the counties for accomplishments.
+The Template layer is just a general county layer used to generate the final layer.
 
 Download Shapefiles from:
 https://texasforestservice.sharepoint.com/:f:/s/Share-ForestAnalytics/EhiEZHqHIFlMuBF89EYSjMYBi2phThOwS_X_64GVVGmDmA?e=0VKab2
+
 ## Structure
 Q1 - September, October, November (Map due in December) <br>
 Q2 - December, Janruary, February (Map due in March)<br>
