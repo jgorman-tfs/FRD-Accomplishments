@@ -95,9 +95,9 @@ A new field is added to the Texas_Places_WithCounties Layer for the acres of eac
 
 These initial steps are similar to the first cleaning, but there are a couple key differences. You will not remove duplicate values and you will not copy the cities from ELMR. (This is because ELMR already records the county.)
 
-2. Copy the ELMR Counties and types of assistance into a new sheet and insert into a table.
+2. Copy the ELMR Counties and types of assistance into a new sheet called "EMLR" and insert into a table.
 3. Filter the table, keeping only the NECCESSARY CATEGORIES. (See structure section above).
-6. Copy the Cities and Types of Assistance from SPAM and SSPR into a sepeate sheet and insert to table.
+6. Copy the Cities and Types of Assistance from SPAM and SSPR into a sepeate sheet called "SPAM" and insert to table.
 7. Filter the table, keeping only the neccessary categories. (See structure section above)
 8. Remove spaces and punctuation from the cities.
 9. Add a Column called "category" and type in either Conservation Education or Technical assistance to the corresponding assistance type. See above for reference.
