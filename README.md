@@ -88,7 +88,7 @@ A new field is added to the Texas_Places_WithCounties Layer for the acres of eac
 **Getting the ELMR Data**
 
 1. Open the FIA Report From Chris.
-2. Change the COUNTY CODE column to SHORT TEXT and convert to 3 character length. In excel, its =A1(TEXT, "000")
+2. Change the COUNTY CODE column to SHORT TEXT and convert to 3 character length. In excel, its =TEXT([CellReference], "000")
 3. Open the FRD Quarterly Accomplishments Microsoft Access Database. If you do not have it, get with Brad Barber.
 4. Import the FIA Data from Chris and overwrite the current one.
 5. Open the FIA table and ensure it loaded correctly.
