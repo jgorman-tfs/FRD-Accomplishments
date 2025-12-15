@@ -1,12 +1,11 @@
 # FRD-Accomplishments 
 This repository contains information related to creating the FRD Accomplishments Map and calcuating the UCF community stats.<br>
 
-*Last updated 9-11-24*
+*Last updated 12-15-25*
 ## Purpose
 The FRD Accomplishment Map is included in the FRD Accomplishment Report that is written by Gretchen and sent to Al every quarter of the fiscal year. The map serves as a visualization of all the quarterly accomplishments. Other ancillary information is also collected and reported. 
 
-The data from ELMR and Chris is straightforward and easy to put into a map because it's a list of counties with the assist count for each county under each category. The data from UCF (Mac) is less straightforward because it is just a list of cities and counties 
-with the associated assist type. You will need to clean and format the UCF data into one sheet for UCF Stats and two sheets for accomplishments. 
+The data from ELMR and Chris is straightforward and easy to put into a map because it's a list of counties with the assist count for each county under each category. The data from Urban and Community Forestry is less straightforward because it is just a list of cities and counties with the associated assist type. You will need to clean and format the UCF data into one sheet for UCF Stats and two sheets for accomplishments. 
 
 You will need to download the Texas_Places_WithCounties and Template layers along with the Q5_2024 lyrx for symbology.
 The Texas_Places_WithCounties layer has all Texas Places and the respective county they are in. This is important to match the UCF cities to the counties for accomplishments.
@@ -29,7 +28,7 @@ Technical Assistance<br>
 FIA Plots<br>
 
 ELMR's report already has information in this format <br>
-Mac's report needs reworking to conform to this format <br>
+UCF report needs reworking to conform to this format <br>
 
 *From ELMR Sheet:* <br>
 
@@ -71,9 +70,9 @@ Also needed is number of communities assisted (U&CF) and acres of those assisted
  4. Copy fitlered data into a new sheet and create a new table. (This is to preserve data along the way in case you need to go back)
  5. In the cities column, replace all "City of, Village of, CDP of, etc so you only have the city name.
  6. Remove all spaces and punctuation. (This is to match the data in the City shapefile. If you are using you're own city shapefile, remove all the spaces. This makes all the names the same and prevents join errors.)
- 7. Remove duplicates to you only have unique cities in your column. (I find it better to highlight and manually delete them. This lets me comb through and check for misspellings and get a better look at the cities.
+ 7. Create a Pivot Table for the name of the cities so that it displays only the unique community names
  8. Use your own judgement when you delete cities and duplicates. For example, you may see Austin and Austin South. Just keep one Austin.
- 9. You now have a PRELININARY list of all the unique cities for this Quarter that si ready to be put in the UCF Community Processor script. Take note of what you call your final sheet for all unique communities.
+ 9. You now have a PRELININARY list of all the unique cities for this Quarter that si ready to be put in the UCF Community Processor script. Take note of what you call your final sheet for all unique communities. You can copy the list of the pivot table into a separate sheet with a CityName header.
 
 **Run through the UCT_CommunityProcessor script**
 
@@ -114,7 +113,7 @@ You MUST have a Texas County Layer loaded in the map. This is a template and wil
 
 Apply the properties from the lyrx to the final layer.
 
-Send Map, number of communities, and acres to Gretchen and cc Rebekah. 
+Send Map, number of communities, and acres to Melissa.
 
 
 
