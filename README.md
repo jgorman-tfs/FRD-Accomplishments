@@ -29,7 +29,23 @@ Management Plans<br>
 Technical Assistance<br>
 FIA Plots<br>
 
-**Run through the FRD Accomplishments Script**
+Steps before running through script:
+1. Open the FIA Report From Chris.
+2. Change the COUNTY CODE column to SHORT TEXT and convert to 3 character length. In excel, its =TEXT([CellReference], "000")
+3. Open the FRD Quarterly Accomplishments Microsoft Access Database. If you do not have it, get with Brad Barber.
+4. Import the FIA Data from Chris and overwrite the current one.
+5. Open the FIA table and ensure it loaded correctly.
+6. Input the year and quarter and click submit.
+7. Save the excel file as CSV
+8. Open the UCF SPAM Report
+9. Create 2 sheets: spam_raw and elmr_raw
+10. Copy the data from SPAM into rows City , Activity Name - delete the blank rows and totals so its just the city and activity rows
+11. Open the ELMR spreadsheet and copy the City, Activity Name, and County into elmr_raw.
+12. Make sure the Column titles are as shown above for each sheet
+
+**Run through the FNRM_Accomplishments Script**
+
+Send map and community acres count to Melissa/Gretchen
 
 
 
